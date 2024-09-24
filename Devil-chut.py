@@ -90,8 +90,7 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
 def main():
     approval()
     
-    print(Fore.MAGENTA + " WELCOME TO PIYUSH A2Z TRICKS TOOL 
-\033[0;95m=============W3LCOM3========================
+    print(Fore.MAGENTA + "\033[0;95m=============W3LCOM3========================
 \033[1;94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \033[1;91m  
 
