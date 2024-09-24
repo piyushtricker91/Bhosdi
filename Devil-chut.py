@@ -1,7 +1,3 @@
-[16/08, 2:28 am] 𓆩༎Ƥͯ͢ɪ͡ɣͯʋͯ͜͡sͯɧ༎𓆪: git clone https://github.com/PiyushA2Ztricks/Piyush-Tricker
-cd piyush tricker
-Python piyush0700.py
-[24/09, 10:53 am] 𓆩༎Ƥͯ͢ɪ͡ɣͯʋͯ͜͡sͯɧ༎𓆪: import requests
 import time
 import random
 import os
