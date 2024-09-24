@@ -1,3 +1,4 @@
+import requests
 import time
 import random
 import os
@@ -31,14 +32,29 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
     logos = [
         r'''
 
-\033[1;35;40m(                 )  (       *     
-\033[1;35;40m )\ )    (      ( /(  )\ )  (  `    
-\033[1;35;40m(()/(    )\     )\())(()/(  )\))(   
- \033[1;35;40m/(_))((((_)(  ((_)\  /(_))((_)()\  
-\033[1;35;40m(_))_| )\ _ )\  _((_)(_))  (_()((_) 
-\033[1;35;40m| |_   (_)_\(_)| || ||_ _| |  \/  | 
-\033[1;35;40m| __|   / _ \  | __ | | |  | |\/| | 
-\033[1;35;40m|_|    /_/ \_\ |_||_||___| |_|  |_|
+\033[0;95m=============W3LCOM3========================
+\033[1;94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;91m  
+
+\031[0;95m██████╗ ██╗██╗   ██╗██╗   ██╗███████╗██╗  ██╗
+\032[0;95m██╔══██╗██║╚██╗ ██╔╝██║   ██║██╔════╝██║  ██║
+\033[0;95m██████╔╝██║ ╚████╔╝ ██║   ██║███████╗███████║
+\034[0;95m██╔═══╝ ██║  ╚██╔╝  ██║   ██║╚════██║██╔══██║
+\035[0;95m██║     ██║   ██║   ╚██████╔╝███████║██║  ██║
+\036[0;95m╚═╝     ╚═╝   ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝
+ 
+\033[1;93m Author        : Mr. Piyush Tricker
+
+\033[1;93m WhatsApp   : +7043592870
+
+\033[1;93m FACEBOOK : https://www.facebook.com/Piyush91Editor
+
+\033[1;91m PIYUSH TRICKER, WELCOME OF MY PIYUSH A2Z TRICKS TOOLS 
+\033[0;95m═══════════════════════════════════════════
+\033[0;94m>>[\033[0;91mOWNER   :\033[0;92mPIYUSH TRICKER
+\033[0;94m>>[\033[0;91mTOOL Name :\033[0;92mPIYUSH TRICKER v3.0.6
+\033[0;94m>>[\033[0;91mPIYUSH-TRICKER:\033[0;92mYour Fucking Dady
+\033[0;95m═══════════════════════════════════════════
                                          
                                          
                                          
@@ -64,7 +80,7 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
                 current_time = time.strftime("%Y-%m-%d %I:%M:%S %p")
                 current_logo = random.choice(logos)
                 print(Fore.GREEN + current_logo)
-                print(Fore.YELLOW + f"[+] WELCOME TO FAHIM{message_index + 1} S3NT TO C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} at {current_time}")
+                print(Fore.YELLOW + f"[+] WELCOME TO PIYUSH {message_index + 1} S3NT TO C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} at {current_time}")
             except requests.exceptions.RequestException as e:
                 print(Fore.RED + f"[x] F91L3D TO S3ND M3SS3G3  {message_index + 1} T0 C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} - Error: {e}")
 
@@ -74,7 +90,30 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
 def main():
     approval()
     
-    print(Fore.MAGENTA + " WELCOME TO FAHEEM TOOL ")
+    print(Fore.MAGENTA + " WELCOME TO PIYUSH A2Z TRICKS TOOL 
+\033[0;95m=============W3LCOM3========================
+\033[1;94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;91m  
+
+\031[0;95m██████╗ ██╗██╗   ██╗██╗   ██╗███████╗██╗  ██╗
+\032[0;95m██╔══██╗██║╚██╗ ██╔╝██║   ██║██╔════╝██║  ██║
+\033[0;95m██████╔╝██║ ╚████╔╝ ██║   ██║███████╗███████║
+\034[0;95m██╔═══╝ ██║  ╚██╔╝  ██║   ██║╚════██║██╔══██║
+\035[0;95m██║     ██║   ██║   ╚██████╔╝███████║██║  ██║
+\036[0;95m╚═╝     ╚═╝   ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝
+ 
+\033[1;93m Author        : Mr. Piyush Tricker
+
+\033[1;93m WhatsApp   : +7043592870
+
+\033[1;93m FACEBOOK : https://www.facebook.com/Piyush91Editor
+
+\033[1;91m PIYUSH TRICKER, WELCOME OF MY PIYUSH A2Z TRICKS TOOLS 
+\033[0;95m═══════════════════════════════════════════
+\033[0;94m>>[\033[0;91mOWNER   :\033[0;92mPIYUSH TRICKER
+\033[0;94m>>[\033[0;91mTOOL Name :\033[0;92mPIYUSH TRICKER v3.0.6
+\033[0;94m>>[\033[0;91mPIYUSH-TRICKER:\033[0;92mYour Fucking Dady
+\033[0;95m═══════════════════════════════════════════")
     print(Fore.CYAN + "------------------------------------")
     # Get file paths and other inputs from the user
     tokens_file = input(Fore.YELLOW + "Enter the path to the tokens file: ").strip()
